@@ -1,5 +1,5 @@
 <script>
-    import { navigation } from '../../stores.js';
+    import { navigation } from '../stores.js';
     
     let className = '';
     let storyblokEditableData = {};
