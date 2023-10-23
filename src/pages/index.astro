@@ -1,0 +1,10 @@
+---
+import Hamburger from '../components/Hamburger.svelte';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="index">
+    <Hamburger client:idle />
+    <h1>Title</h1>
+    <button>Back to homepage</button>
+</Layout>
